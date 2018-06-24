@@ -1,3 +1,7 @@
+//
+//  Style.js
+//
+
 function openNav() {
     document.getElementById("mySidenav").style.width = "450px";
     document.getElementById("main").style.marginLeft = "250px";
