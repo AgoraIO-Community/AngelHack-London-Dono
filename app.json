@@ -1,0 +1,13 @@
+{
+  "name": "Agora WebRTC Demo v2.0",
+  "description": "Agora WebRTC Video Call",
+  "repository": "https://github.com/sidsharma27/agoraWebRTCDemo",
+  "logo": "https://photos.prnewswire.com/prnfull/20150722/240347LOGO",
+  "keywords": ["agora.io", "video sdk", "web rtc"],
+  "env": {
+    "APP_ID": {
+      "description": "Agora.io App ID: Login to the Agora.io Developer Dashboard (http://dashboard.agora.io), and navigate to the \"Projects\" tab to get this value",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "agora_webrtc_interop_demo",
+  "version": "1.12",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "favicon": "0.0.2",
+    "http": "0.0.0",
+    "serve-favicon": "^2.4.3"
+  },
+  "author": "agora"
+}
