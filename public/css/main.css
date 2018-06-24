@@ -8,6 +8,7 @@
     width: 100%;
     color: white !important;
     font-family: sans-serif !important;
+    font-size: 18px !important;
 }
 
 .settingBtn {
@@ -28,7 +29,7 @@
 }
 
 #main {
-    padding: 125px;
+    padding: 100px;
 }
 
 .room-name-title {
@@ -41,5 +42,15 @@
 
 .vid-container {
     background: black !important;
-    margin-top: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.browse-card {
+    border: 1px solid #474747;
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 40px;
 }
