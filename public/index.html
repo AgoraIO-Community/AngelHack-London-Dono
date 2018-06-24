@@ -2,53 +2,70 @@
 <html>
 
 <head>
-    <title>Agora Video Call</title>
+    <title>Dono - Join lesson</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="css/bundle.css?v=2.0.0">
+    <link rel="stylesheet" href="./css/main.css">
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="bookmark" href="images/favicon.ico">
 </head>
 
-<body class="is-loading">
+<body class="is-loading background">
     <!-- Wrapper -->
     <div id="wrapper">
         <!-- Main -->
         <section id="main">
-            <header><img id="logo" src="images/logo.png" alt="Logo">
-                <p class="head-text">Agora Video Call<span class="version">v2.0.0 Beta</span></p>
-                <p class="head-text-bottom">Powering Real-Time Communications</p>
+
+            <header><img id="logo" src="images/NEWlogo.png" alt="Logo">
+                <p class="head-text">DONO</p>
+                <p class="head-text-bottom">Augmented Online Tutoring With Artificial Intelligence</p>
             </header>
+
             <main id="main-content">
-                <p class="enter-prompt">Enter a conference room name</p>
                 <p class="main-description-text">If you are the first person to specify this name, the room will be created and you will be placed in it. If it has already been created you will join the conference in progress.</p>
                 <div id="form-content">
                     <form action="meeting.html" method="GET">
                         <div class="form-group row">
-                            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-xlg-2 col-xlg-offset-5"><input id="room-name" type="text" class="form-control" placeholder="Enter room name here"></div>
+                            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-xlg-2 col-xlg-offset-5">
+                                <input id="room-name" type="text" class="form-control" placeholder="Enter room name here">
+                            </div>
                         </div>
                         <div class="form-group row">
-                            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-xlg-2 col-xlg-offset-5"><button class="btn btn-warning join-button" id="join-meeting"><span class="fa fa-sign-in">&nbsp;&nbsp;Join</span></button></div>
+                            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-xlg-2 col-xlg-offset-5">
+                                <button class="btn joinBtn" id="join-meeting">
+                                    <span class="cfont">&nbsp;&nbsp;Join</span>
+                                </button>
+                            </div>
                         </div>
                         <hr>
                         <div class="form-group row">
-                            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-xlg-2 col-xlg-offset-5"><button id="options-button" type="button" class="btn btn-default" data-toggle="modal" data-target="#videoOptionsModal"><span class="fa fa-gear">&nbsp; Video Options</span></button></div>
+                            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-xlg-2 col-xlg-offset-5">
+                                <button id="options-button" type="button" class="settingBtn" data-toggle="modal" data-target="#videoOptionsModal">
+                                    <span class="dfont">&nbsp; Video Options</span>
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>
             </main>
+
         </section>
+
+
         <!-- Footer -->
         <footer id="footer">
             <ul class="copyright">
-                <li><a>Agora.io</a></li>
-                <li>&copy; Copyright Agora.io 沪ICP备14053584号</li>
+                <li>Developed by Ryan & Ross</li>
             </ul>
         </footer>
+
+
     </div>
+    
     <!-- Modal -->
     <div class="modal fade" id="videoOptionsModal" role="dialog">
         <div class="modal-dialog modal-sm">
@@ -66,6 +83,8 @@
             </div>
         </div>
     </div>
+
+
     <!-- Scripts -->
     <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
     <script src="js/vendor-bundle.js?v=2.0.0"></script>
