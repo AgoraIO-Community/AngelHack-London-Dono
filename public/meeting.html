@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html class="menu">
+<html>
 
 <head>
     <title>Agora Video Call - Meeting</title>
@@ -28,6 +28,10 @@
 </head>
 
 <body class="is-loading background">
+
+    <button class="btn notes-btn" onclick="openNav()">Take Notes</button>
+
+    <button class="btn canvas-btn" onclick="openNav()">Canvas</button>
 
     <div id="div_device" class="panel panel-default" style="display:none">
         <div class="select">
@@ -118,8 +122,6 @@
         <textarea class="notes" placeholder="Take notes!"></textarea>
         <button class="btn joinBtn" style="width: 85%; margin-left: 30px; margin-right: 30px; margin-top: 20px;">Archive Notes</button>
     </div>
-
-    <button class="btn" onclick="openNav()">OPEN</button>
 
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="js/vendor-bundle.js?v=2.0.0"></script>
