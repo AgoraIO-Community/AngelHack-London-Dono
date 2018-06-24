@@ -1,11 +1,11 @@
 (function($) {
     $(function() {
         var maxRateSlider = createSlider();
+               
 
         $("#videoOptionsModal").on("hide.bs.modal", function() {
             var resolution = $("#resolution").val() || '720p';
             var maxFrameRate = $("#maxFrameRate").val() || 30;
-            //var maxBitRate = maxRateSlider.slider("getValue") || 750;
 
             Cookies.set("resolution", resolution);
             Cookies.set("maxFrameRate", maxFrameRate);
